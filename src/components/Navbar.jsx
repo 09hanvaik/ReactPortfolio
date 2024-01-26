@@ -2,12 +2,22 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+// import "./Navbar.css";
 
 function Navigationbar() {
   return (
-    <Navbar sticky = "top" expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
+    <Navbar sticky = "top" expand="lg" className="bg-body-tertiary" bg="#DCB8CB" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="#home">Hansal Vaikkath</Navbar.Brand>
+        <Navbar.Brand href="/home"> 
+        {/* <img
+              src="public/images/hansalLogo.png"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+              alt="Hansal Logo"
+        />{' '} */}
+            Hansal Vaikkath
+          </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
