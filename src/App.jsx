@@ -5,6 +5,7 @@ import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 import Navigationbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
-
+    <Footer />
     </div>
   );
 }
