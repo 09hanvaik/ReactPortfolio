@@ -1,7 +1,10 @@
 import { Carousel } from "react-bootstrap";
+import "./Home.css";
+
+
 const Home = () => {
   return (
-    <div>
+    <div className="centre">
   <h1>Hello, world!</h1>
   <p>
     This is a simple hero unit, a simple jumbotron-style component for calling

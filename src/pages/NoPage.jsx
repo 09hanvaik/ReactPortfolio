@@ -7,7 +7,6 @@ const NoPage = () => {
         <div className="row">
           <div className="col-sm-12 text-center">
             <div className="four_zero_four_bg">
-              <h1 className="text-center">404</h1>
             </div>
 
             <div className="contant_box_404">
